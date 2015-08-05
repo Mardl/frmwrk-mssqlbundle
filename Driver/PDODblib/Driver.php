@@ -10,9 +10,9 @@
  * @author Scott Morken <scott.morken@pcmail.maricopa.edu>
  */
 
-namespace Realestate\MssqlBundle\Driver\PDODblib;
+namespace MssqlBundle\Driver\PDODblib;
 use Doctrine\DBAL\Schema\SQLServerSchemaManager;
-use Realestate\MssqlBundle\Platforms\DblibPlatform;
+use MssqlBundle\Platforms\DblibPlatform;
 
 class Driver implements \Doctrine\DBAL\Driver
 {

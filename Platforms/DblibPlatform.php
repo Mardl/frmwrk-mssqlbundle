@@ -19,7 +19,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Realestate\MssqlBundle\Platforms;
+namespace MssqlBundle\Platforms;
 
 use Doctrine\DBAL\Platforms\SQLServer2008Platform;
 
