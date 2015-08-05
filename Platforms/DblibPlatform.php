@@ -47,4 +47,11 @@ class DblibPlatform extends SQLServer2008Platform
         return 'DATETIME';
     }
 
+    /**
+     * {@inheritDoc}
+     */
+    public function getClobTypeDeclarationSQL(array $field)
+    {
+        return 'NVARCHAR(MAX)';
+    }
 }
