@@ -2,5 +2,8 @@
     "name": "frameworks/mssqlbundle",
     "type": "package",
     "description": "",
-    "homepage": "http://repo.dreiwerken.intern/frameworks/mssqlbundle"
+    "homepage": "http://repo.dreiwerken.intern/frameworks/mssqlbundle",
+    "autoload": {
+        "classmap": ["/"]
+    }
 }
