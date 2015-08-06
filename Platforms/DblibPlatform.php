@@ -52,6 +52,6 @@ class DblibPlatform extends SQLServer2008Platform
      */
     public function getClobTypeDeclarationSQL(array $field)
     {
-        return 'NVARCHAR(MAX)';
+        return 'NTEXT';
     }
 }
