@@ -4,5 +4,10 @@
     "description": "",
     "autoload": {
         "classmap": ["/"]
+    },
+    "autoload": {
+        "psr-4": {
+            "MssqlBundle\\": "/"
+        }
     }
 }
