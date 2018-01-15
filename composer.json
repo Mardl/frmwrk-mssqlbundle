@@ -1,5 +1,5 @@
 {
-    "name": "frameworks/mssqlbundle",
+    "name": "Mardl/frmwrk-mssqlbundle",
     "type": "package",
     "description": "",
     "autoload": {
